@@ -47,18 +47,18 @@
     margin-top: 12px;
     border-radius: 20%;
     background-color: var(--main-color);
-    width: 45px;
-    height: 45px;
+    width: 45px !important;
+    height: 45px !important;
   }
 
 .service_icon > .MuiSvgIcon-root {
-    font-size: 36px ;
+    font-size: 36px !important;
     color: darkslategray;
-    display: flex; /* Set to flex container */
+    display: flex !important; /* Set to flex container */
     align-items: center; /* Center items vertically */
     justify-content: center; /* Center items horizontally */
-    width: 50%; /* Make the icon occupy the full width of the .service_icon div */
-    height: 50%; /* Make the icon occupy the full height of the .service_icon div */
+    width: 50% !important; /* Make the icon occupy the full width of the .service_icon div */
+    height: 50% !important; /* Make the icon occupy the full height of the .service_icon div */
 }
 
 /* Skills */
