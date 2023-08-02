@@ -54,7 +54,7 @@
 .service_icon > .MuiSvgIcon-root {
     font-size: 36px !important;
     color: darkslategray;
-    display: flex !important; /* Set to flex container */
+
     align-items: center; /* Center items vertically */
     justify-content: center; /* Center items horizontally */
 }
