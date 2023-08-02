@@ -104,7 +104,7 @@ const Resume = () => {
           <Grid
             container
             className="pt_30"
-            spacing={2}
+            spacing={3}
             justifyContent={"space-around"}
           >
             {resumeData.services.map((service) => (
