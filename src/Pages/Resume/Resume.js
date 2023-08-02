@@ -150,6 +150,32 @@ const Resume = () => {
         ))}
       </Grid>
 
+      {/* Biomedical Skills */}
+      <Grid
+        container
+        justifyContent="space-between"
+        className="section graybg pb_45 pt_45"
+      >
+        {resumeData.biomed_skills.map((skill) => (
+          <Grid item xs={12} sm={12} md={3}>
+            <Paper elevation={2} className="skill">
+              <Typography variant="h6" className="skills_title">
+                {skill.title}
+              </Typography>
+              {skill.description.map((element) => (
+                <Typography variant="body2" className="skill_description">
+                  <TimelineDot
+                    variant={"outlined"}
+                    sx={{ borderColor: "var(--main-color)", m: 1 }}
+                  />
+                  <span className="dot_description">{element}</span>
+                </Typography>
+              ))}
+            </Paper>
+          </Grid>
+        ))}
+      </Grid>
+
       {/* Contact */}
       <Grid container className="section pd_30">
         {/* Contact Form */}
