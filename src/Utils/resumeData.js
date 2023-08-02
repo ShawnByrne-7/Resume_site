@@ -10,7 +10,7 @@ import ReactImage from "../Assets/images/react.svg";
 import PythonImage from "../Assets/images/Python.jpg";
 import DisplayImage from "../Assets/images/displayimage.jpg";
 
-export default {
+const resumeData = {
   name: "Shawn Byrne",
   title: "Biomedical Engineer",
   birthday: "14th May 1998",
@@ -213,3 +213,5 @@ export default {
     },
   ],
 };
+
+export default resumeData;
