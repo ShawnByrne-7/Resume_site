@@ -39,7 +39,7 @@ const Resume = () => {
         </Grid>
 
         <Grid item xs={12}>
-          <Grid container className="top_30">
+          <Grid container className="pt_30">
             {/* Experience */}
             <Grid item sm={12} md={6}>
               <CustomTimeline title="Experience" icon={<WorkIcon />}>
