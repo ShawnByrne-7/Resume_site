@@ -57,8 +57,9 @@
     display: flex !important; /* Set to flex container */
     align-items: center; /* Center items vertically */
     justify-content: center; /* Center items horizontally */
-    width: 50% !important; /* Make the icon occupy the full width of the .service_icon div */
-    height: 50% !important; /* Make the icon occupy the full height of the .service_icon div */
+}
+.css-1jgtvd5 {
+    display: inline-flex;
 }
 
 /* Skills */

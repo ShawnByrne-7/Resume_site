@@ -104,11 +104,11 @@ const Resume = () => {
           <Grid
             container
             className="pt_30"
-            spacing={3}
+            spacing={2}
             justifyContent={"space-around"}
           >
             {resumeData.services.map((service) => (
-              <Grid item xs={12} sm={6} md={3} lg={3} key={service.title}>
+              <Grid item xs={12} sm={6} md={4} lg={4} key={service.title}>
                 <div className="service">
                   <Icon className="service_icon">{service.icon}</Icon>
                   <Typography className="service_title" variant="h6">
