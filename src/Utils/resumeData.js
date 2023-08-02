@@ -39,58 +39,66 @@ const resumeData = {
 
   experiences: [
     {
-      title: "Work1",
-      date: "2018-Present",
-      description: "dhdhfhd",
+      title: "North Texas VHA - Clinical Engineer",
+      date: "2021-Present",
+      description:
+        "While studying for my master's degree, I worked full-time at the North Texas VHA. Many of my projects in my portfolio are related to this work experience.",
     },
     {
-      title: "Work2",
-      date: "2020-2022",
-      description: "dhdhfhd",
+      title:
+        "University of Maryland - Innovation Methodologies, Lab Technician",
+      date: "2020-2021",
+      description:
+        "Experienced in conducting various laboratory experiments and assisting researchers in the pursuit of academic excellence. Proficient in handling advanced laboratory equipment, maintaining lab cleanliness, and adhering to strict safety protocols. ",
     },
     {
-      title: "Work3",
-      date: "Aug 2016-Sept 2018",
-      description: "dhdhfhd",
+      title: "Personal Projects",
+      date: "2016-Present",
+      description:
+        "Many of these projects are listed in my portfolio, including Biomechanical, SolidWorks, and Game development projects. Check them out if you're curious!",
     },
   ],
   education: [
     {
-      title: "Education1",
-      date: "2016-2021",
-      description: "dhdhfhd",
+      title: "M.S. Biomedical Engineering",
+      date: "2021-2023",
+      description: "University of Connecticut - Storrs",
     },
     {
       title: "Education2",
-      date: "2021-2023",
-      description: "dhdhfhd",
+      date: "2016-2021",
+      description: "University of Maryland - College Park",
     },
     {
-      title: "Maybe3",
-      date: "Aug 2016-Sept 2018",
-      description: "dhdhfhd",
+      title: "Professional Management Training",
+      date: "2021-2022",
+      description:
+        "A LinkedIn training course for developing Project Management skills",
     },
   ],
 
   services: [
     {
       title: "Python",
-      description: "I have been coding with Python for 3 years",
+      description:
+        "I have been coding with Python for 3 years. Check out my projects in the Portfolio tab!",
       icon: <WebOutlined />,
     },
     {
       title: "ReactJS",
-      description: "I have been coding with React for 1 year",
+      description:
+        "I have been coding with React for 1 year. Check out my projects in the Portfolio tab!",
       icon: <WebOutlined />,
     },
     {
       title: "SQL",
-      description: "I have been coding with SQL, MySQL, and SQLite for 3 years",
+      description:
+        "I have been coding with SQL, MySQL, and SQLite for 3 years. Alot of my work experience is relative to SQL.",
       icon: <WebOutlined />,
     },
     {
       title: "Web Development",
-      description: "I have 2 years of Web Development experience",
+      description: "I have 1 year of Web Development experience",
       icon: <AssignmentOutlined />,
     },
   ],
@@ -106,7 +114,7 @@ const resumeData = {
     },
     {
       title: "DATABASES",
-      description: ["MySQL", "Apache", "Heroku"],
+      description: ["MySQL", "Apache", "Netlify", "Heroku"],
     },
   ],
 
@@ -141,20 +149,24 @@ const resumeData = {
     {
       tag: "React",
       image: ReactImage,
-      title: "Project 1",
-      caption: "A short description",
-      description: "This is my project description. Please fill it in",
+      title: "My Resume Website",
+      caption:
+        "I decided to make a website to track my work experience as it is easier than updating a resume every once in a while.",
+      description:
+        "The project included many usages of ReactJS, Netlify, and basic Front-End/Back-End development skills.",
       links: [
-        { link: "https://www.gooogle.com", icon: <GoogleIcon /> },
-        { link: "https://www.gooogle.com", icon: <ComputerTwoToneIcon /> },
+        { link: "https://www.shawnbyrne.org", icon: <GoogleIcon /> },
+        { link: "https://www.shawnbyrne.org", icon: <ComputerTwoToneIcon /> },
       ],
     },
     {
       tag: "Python",
       image: PythonImage,
-      title: "Project 1",
-      caption: "A short description",
-      description: "This is my project description. Please fill it in",
+      title: "Telehealth Physical Therapist",
+      caption:
+        "Utilized python movement detection libraries OpenPose and Cubemos to develop a miniature device that captured physical therapy motions and made corrections.",
+      description:
+        "Motion-Correcting Physical Therapy Device \n\n In this project, I leveraged the power of Python movement detection libraries, OpenPose and Cubemos, to design and implement a revolutionary miniature device for physical therapy applications. The primary objective was to create a portable and efficient tool that captured patients' movements during physical therapy sessions, providing real-time feedback and precise corrections.\n\nUsing OpenPose and Cubemos libraries, I developed an advanced system capable of accurately tracking and analyzing human body keypoints and skeletal structures from live video streams. The device seamlessly integrated with standard cameras, making it easily accessible and non-intrusive for patients undergoing physical therapy.\n\nThe key functionalities of the device included:\n\nReal-time Movement Detection: The device instantaneously detected and identified patients' joint angles, posture, and movement patterns in real-time, creating a comprehensive analysis of their motions during therapy exercises.\n\nCustomizable Corrective Feedback: Through sophisticated algorithms, the device assessed the correctness of patients' movements and provided personalized and actionable feedback. This allowed patients to make immediate adjustments and ensure they performed exercises with optimal form, minimizing the risk of injury and maximizing the therapeutic benefits.\n\nData Logging and Progress Tracking: The system efficiently stored patients' movement data over time, allowing for progress tracking and long-term assessment of their physical therapy journey. The collected data also facilitated therapists in adjusting treatment plans based on measurable improvements.",
       links: [
         {
           link: "https://github.com/ShawnByrne-7?tab=repositories",
