@@ -116,7 +116,12 @@ const Portfolio = () => {
         </DialogContent>
         <DialogActions className="projectDialog_actions">
           {projectDialog?.links?.map((link) => (
-            <a href={link.link} target="_blank" className="projectDialog_icon">
+            <a
+              href={link.link}
+              target="_blank"
+              rel="noreferrer"
+              className="projectDialog_icon"
+            >
               {link.icon}
             </a>
           ))}

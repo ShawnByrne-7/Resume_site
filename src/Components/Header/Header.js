@@ -45,7 +45,11 @@ const Header = (props) => {
 
         <div className="header_right">
           {Object.keys(resumeData.socials).map((key) => (
-            <a href={resumeData.socials[key].link} target="_blank">
+            <a
+              href={resumeData.socials[key].link}
+              target="_blank"
+              rel="noreferrer"
+            >
               {resumeData.socials[key].icon}
             </a>
           ))}
