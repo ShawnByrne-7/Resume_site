@@ -1,0 +1,82 @@
+.timeline {
+    padding: 0 !important;
+
+}
+
+/* Header */
+
+/* Header Title */
+.timeline_header {
+    padding-top: 10px;
+
+}
+
+.timeline_firstItem {
+    min-height: 50px !important;
+
+}
+
+.MuiTimelineItem-root {
+    min-height: 0px; 
+    padding-left: 10px; 
+}
+
+
+.timeline_dot_header {
+    color: black !important;
+    background-color: var(--main-color) !important; 
+    font-size: small !important;
+    padding: 10px !important;
+    
+}
+/*Remaining Items */
+
+.MuiTimelineConnector-root {
+    background-color: #eee !important;
+}
+
+.timeline_connector {
+    color: var(--main-color); 
+    padding: 0px; 
+
+}
+.timeline_dot_header > .MuiSvgIcon-root {
+    font-size: 20px;
+    color: darkslategray;
+}
+.separator_padding {
+    padding-left: 0px !important; 
+}
+.timeline_content {
+    padding-top: 0px !important;
+    margin-bottom: 20px;
+
+}
+/* Adjusting styles for TimelineDot and TimelineConnector */
+.timeline_dot.css-6xp33q-MuiTimelineDot-root {
+    color: var(--main-color) !important;
+    border: 2px solid var(--main-color) !important;
+    padding: 3px !important;
+}
+
+.css-1ami7lv-MuiTimelineConnector-root {
+  background-color: darkslategray!important;
+}
+
+/* Separator padding*/
+.separator_padding.css-1fe7e6p-MuiTimelineSeparator-root {
+  align-items: top;
+  padding-left: 2px !important;
+  padding-bottom: 0px !important;
+  min-height: 2px; 
+}
+
+/* Ensure TimelineDots and TimelineConnectors are on the left side */
+.css-ha3bif-MuiTimelineItem-root:before {
+  display: none !important;
+}
+.css-ha3bif-MuiTimelineItem-root {
+    justify-content: flex-start !important; 
+    padding-left: 5px; 
+}
+

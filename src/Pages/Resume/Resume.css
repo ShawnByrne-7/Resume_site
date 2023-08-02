@@ -1,0 +1,112 @@
+/* About me section */
+.aboutme_text{
+    color: darkslategray;
+    font: smaller;
+    line-height: 20px; 
+    white-space: pre-line;
+}
+
+
+/* timeline section */
+.timeline_title{
+    font-size: 16px !important;
+    font-weight:500;
+}
+.timeline_date{
+    color: darkslategray;
+}
+.timeline_description{
+    color: gray;
+    font-size:small;
+    margin-top: 6px; 
+}
+
+
+/* Services */
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    text-align: center;
+  }
+.service_title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 35px;
+  }
+.service_description {
+    color: #989898;
+    margin-top: 5px;
+  }
+.service_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    border-radius: 20%;
+    background-color: var(--main-color);
+    width: 45px;
+    height: 45px;
+  }
+
+.service_icon > .MuiSvgIcon-root {
+    font-size: 36px ;
+    color: darkslategray;
+    display: flex; /* Set to flex container */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    width: 50%; /* Make the icon occupy the full width of the .service_icon div */
+    height: 50%; /* Make the icon occupy the full height of the .service_icon div */
+}
+
+/* Skills */
+.skill{
+    border-radius: 8px; 
+    padding: 15px; 
+    box-shadow: 0px 0px 48px 0px rgba(4,6,4,0.08);
+    min-height: 186px;
+    height: 100%;
+}
+
+.skills_title{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 35px; 
+}
+.skill_description{
+    display: flex;
+    align-items: center;
+    color: #989898;
+    font-weight: 400;
+    line-height: 18px; 
+
+}
+.dot_description{
+    margin: 5px;
+}
+.graybg{
+    background-color: #fafafa;
+
+}
+
+/* Contacts */
+.contactInfo_item {
+    font-size: 14px; 
+    color: #787878;
+
+}
+.contactInfo_item > span {
+    color: black;
+    font-weight: 500;
+
+}
+.contactInfo_socialsContainer {
+    margin-top: 25px;
+}
+.contactInfo_social > a > .MuiSvgIcon-root {
+    font-size: 25px;
+    margin-right: 10px;
+    color: black;
+}

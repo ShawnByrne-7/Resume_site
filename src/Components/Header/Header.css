@@ -1,0 +1,53 @@
+.header {
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 0 22px 0 0;
+    border-radius: 6px;
+    box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.7);
+  }
+.header_navlink{
+    padding: 0px; 
+}
+  .header_link,
+  .header_link_active,
+.nav-link:hover { /* Add this selector to target the links */
+    font-weight: 500;
+    color: darkslategray;
+  }
+  
+  .header_link:hover, /* Apply a different color on hover */
+ .nav-link:hover {
+    color: #ffc500 !important;
+  }
+  
+  .header_link_active {
+    color: #ffc500 !important;
+  }
+
+.header_home {
+    background-color: #ffc500;
+    padding: 22px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit; 
+  }
+
+.header_left {
+    margin-right: auto;
+}
+
+.header_right{ 
+    display: flex; 
+    align-items: center;
+
+}
+
+.header_right a {
+    font-size: 16px;
+    margin-right: 12px;
+    color: black;
+
+
+}
