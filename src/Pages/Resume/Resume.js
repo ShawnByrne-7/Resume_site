@@ -153,12 +153,11 @@ const Resume = () => {
       {/* Biomedical Skills */}
       <Grid
         container
-        spacing={2}
         justifyContent="space-between"
         className="section graybg pb_45 pt_45"
       >
         {resumeData.biomed_skills.map((skill) => (
-          <Grid item xs={12} sm={12} md={3}>
+          <Grid item xs={12} sm={12} md={3} spacing={1}>
             <Paper elevation={2} className="skill">
               <Typography variant="h6" className="skills_title">
                 {skill.title}
