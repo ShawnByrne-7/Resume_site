@@ -44,7 +44,7 @@ const Profile = () => {
 
       {/* This is for my profile image*/}
       <figure className="profile_image">
-        <img src={require("../../Assets/images/Chainsawman.png")} alt="" />
+        <img src={require("../../Assets/images/profile.jpg")} alt="" />
       </figure>
 
       <div className="profile_information" style={{ maxHeight: "600px" }}>
@@ -56,7 +56,6 @@ const Profile = () => {
           <CustomTimelineItem title="Name" text={resumeData.name} />
           <CustomTimelineItem title="Title" text={resumeData.title} />
           <CustomTimelineItem title="Email" text={resumeData.email} />
-          <CustomTimelineItem title="Birthday" text={resumeData.birthday} />
 
           {Object.keys(resumeData.socials).map((key) => (
             <CustomTimelineItem

@@ -153,6 +153,7 @@ const Resume = () => {
       {/* Biomedical Skills */}
       <Grid
         container
+        spacing={2}
         justifyContent="space-between"
         className="section graybg pb_45 pt_45"
       >
