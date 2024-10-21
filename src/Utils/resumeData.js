@@ -10,6 +10,7 @@ import ReactImage from "../Assets/images/react.svg";
 import PythonImage from "../Assets/images/Python.jpg";
 import DisplayImage from "../Assets/images/displayimage.jpg";
 import MRI from "../Assets/images/MRI.jpg";
+import STARGUIDE from "../Assets/images/Starguide.jpg";
 
 const resumeData = {
   name: "Shawn Byrne",
@@ -36,14 +37,14 @@ const resumeData = {
     },
   },
   about:
-    "Hi there! I'm Shawn Byrne, a passionate Biomedical Engineer specializing in technology and data-driven solutions. With a diverse skillset encompassing Python, Django, React, JavaScript, HTML, and SQL, I possess a comprehensive understanding of both the front-end and back-end aspects of web development. My expertise extends to everything in between, and I'm always eager to explore the latest tools and methodologies that power the modern healthcare landscape.\n\n Throughout my career, I've been driven by the immense potential of technology to revolutionize patient care. My work revolves around designing and implementing innovative solutions to complex challenges that clinicians and medical practitioners face daily. I thrive in collaborative environments where I can leverage my excellent communication skills to bridge the gap between medical expertise and technical prowess, creating holistic and impactful solutions. Every project I undertake is guided by a sense of purpose and responsibility towards improving healthcare outcomes. \n \n If you're looking for a skilled clinical engineer to enhance your healthcare projects or want to discuss the latest advancements in technology and healthcare, I'm always open to new opportunities and collaborations. Let's connect and make a positive impact together! Thank you for visiting my portfolio, and I look forward to hearing from you soon.",
+    "Thank you for visiting my page. I'm a passionate Biomedical Engineer specializing in technology and data-driven solutions. With a diverse skillset surrounding Python, PowerBI, SQL, React, JavaScript, HTML, Nuvolo, and VISTA, I possess a comprehensive understanding of both the front-end and back-end aspects of being a Biomedical Engineer. My expertise specializes in those technologies but extends to everything in between as well. I'm always eager to explore the latest tools and methodologies that power the modern healthcare landscape.\n\n Throughout my career, I've been driven by the immense potential of technology to revolutionize patient care. My work revolves around designing and implementing innovative solutions to complex challenges that clinicians and medical practitioners face daily. I thrive in collaborative environments where I can leverage my excellent communication skills to bridge the gap between medical expertise and technical prowess, creating holistic and impactful solutions. Every project I undertake is guided by a sense of purpose and responsibility towards improving healthcare outcomes. \n \n If you're looking for a skilled clinical engineer to enhance your healthcare projects or want to discuss the latest advancements in technology and healthcare, I'm always open to new opportunities and collaborations. Let's connect and make a positive impact together!",
 
   experiences: [
     {
       title: "North Texas VHA - Clinical Engineer",
       date: "2021-Present",
       description:
-        "While studying for my master's degree, I worked full-time at the North Texas VHA. Many of my projects in my portfolio are related to this work experience.",
+        "While studying for my master's degree, I worked and currently work full-time at the North Texas VHA.",
     },
     {
       title:
@@ -71,10 +72,10 @@ const resumeData = {
       description: "University of Maryland - College Park",
     },
     {
-      title: "Professional Management Training",
-      date: "2021-2022",
+      title: "Trainings",
+      date: "2021 - Present",
       description:
-        "A LinkedIn training course for developing Project Management skills",
+        "Professional Management, HTM 111/112: Basic Networking, LEAN Six Sigma Yellow Belt Course, HTM211: Introduction to Operating Systems, Coursera: Data Analytics, CompTIA A+ and Sec+ Training, SQL & PowerBI Training ",
     },
   ],
 
@@ -82,19 +83,19 @@ const resumeData = {
     {
       title: "Python",
       description:
-        "I have been coding with Python for 3 years. Check out my projects in the Portfolio tab!",
+        "I have been coding with Python for 3 years. Check out my projects in the Portfolio tab",
       icon: <WebOutlined />,
     },
     {
       title: "ReactJS",
       description:
-        "I have been coding with React for 1 year. Check out my projects in the Portfolio tab!",
+        "I have been coding with React for 1 year. Check out my projects in the Portfolio tab",
       icon: <WebOutlined />,
     },
     {
       title: "SQL",
       description:
-        "I have been coding with SQL, MySQL, and SQLite for 3 years. Alot of my work experience is relative to SQL.",
+        "I have been coding with SQL, MySQL, and SQLite for 3 years. Most of my work experience is relative to SQL.",
       icon: <WebOutlined />,
     },
     {
@@ -115,7 +116,7 @@ const resumeData = {
     },
     {
       title: "DATABASES",
-      description: ["MySQL", "Apache", "Netlify", "Heroku"],
+      description: ["MySQL", "PowerBI", "Netlify", "Heroku"],
     },
   ],
 
@@ -123,10 +124,10 @@ const resumeData = {
     {
       title: "PROJECT MANAGEMENT",
       description: [
-        "Communication",
+        "Risk Management",
+        "Constant Communication",
         "Collaboration",
         "Project Scheduling/Planning",
-        "Risk Management",
       ],
     },
     {
@@ -153,7 +154,7 @@ const resumeData = {
       image: ReactImage,
       title: "My Resume Website",
       caption:
-        "I decided to make a website to track my work experience due to it being easier than updating a resume every once in a while.",
+        "I decided to make a website to track my work experience due to it being easier to consolidate information.",
       description:
         "The project included many usages of ReactJS, Netlify, and basic Front-End/Back-End development skills.",
       links: [
@@ -206,7 +207,7 @@ const resumeData = {
       title: "Fort Worth - MRI Addition and Replacement",
       caption: "Managed multiple large-scale MRI system implementations",
       description:
-        "The Fort Worth VHA Clinic embarked on a transformative project to implement a state-of-the-art Magnetic Resonance Imaging (MRI) facility, bolstering its medical services and enhancing patient care. This ambitious endeavor involved meticulous planning, coordination, and project management to ensure seamless integration of the MRI system into the clinic's existing infrastructure. The techniques I applied during this process included a Needs Assessment and Planning phase, interviewing vendors, staff-training and education, and regulatory copmliance checks.",
+        "The Fort Worth VHA Clinic embarked on a transformative project to implement a state-of-the-art Magnetic Resonance Imaging (MRI) facility, bolstering its medical services and enhancing patient care. This ambitious endeavor involved meticulous planning, coordination, and project management to ensure seamless integration of the MRI system into the clinic's existing infrastructure. The techniques I applied during this process included a Needs Assessment and Planning phase, interviewing vendors, staff-training and education, and regulatory compliance checks.",
       links: [
         {
           link: "https://www.linkedin.com/in/shawn-byrne-a311a1171/",
@@ -214,6 +215,25 @@ const resumeData = {
         },
         {
           link: "https://www.siemens-healthineers.com/en-us/magnetic-resonance-imaging/technologies-and-innovations/mri-patient-experience",
+          icon: <ComputerTwoToneIcon />,
+        },
+      ],
+    },
+    {
+      tag: "Project Management",
+      image: STARGUIDE,
+      title: "STARGUIDE - SPECT/CT Addition and Replacement",
+      caption:
+        "Managed deinstallation of two CTs and installation of GEs STARGUIDE",
+      description:
+        "The Dallas VHA took charge in initiating a more innovative implementation. The project encompassed installing a state-of-the-art SPECT/CT in the facility, bolstering its medical services and enhancing theranostic imaging for patient care. The project took meticulous planning, coordination, and project management to ensure seamless integration of the SPECT/CT system into the clinic's existing infrastructure. The techniques I applied during this process included a Needs Assessment and Planning phase, a Risk Assessment, staff-training and education, regular compliance checks with the construction team, daily system and software checks, monitoring Xeleris servers, and regulatory VHA compliance checks.",
+      links: [
+        {
+          link: "https://www.linkedin.com/in/shawn-byrne-a311a1171/",
+          icon: <LinkedInIcon />,
+        },
+        {
+          link: "https://www.gehealthcare.com/products/molecular-imaging/starguide?utm_medium=cpc&utm_source=google&utm_campaign=USC-USC-REG-AlwaysOn-COV-SC-24-09&utm_term=ge%20starguide&utm_content=12207541842&npclid=Cj0KCQjw99e4BhDiARIsAISE7P-saQhCS_V5gECIHyq5AiR6azIWbK8MH_cyJkm8AcygbwBZctR1_l0aAmErEALw_wcB&gad_source=1&gclid=Cj0KCQjw99e4BhDiARIsAISE7P-saQhCS_V5gECIHyq5AiR6azIWbK8MH_cyJkm8AcygbwBZctR1_l0aAmErEALw_wcB",
           icon: <ComputerTwoToneIcon />,
         },
       ],

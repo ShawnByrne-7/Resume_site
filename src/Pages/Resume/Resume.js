@@ -124,14 +124,14 @@ const Resume = () => {
         </Grid>
       </Grid>
 
-      {/* Coding Skills */}
+      {/* Biomedical Skills */}
       <Grid
         container
         justifyContent="space-between"
         className="section graybg pb_45 pt_45"
       >
-        {resumeData.coding_skills.map((skill) => (
-          <Grid item xs={12} sm={12} md={3}>
+        {resumeData.biomed_skills.map((skill) => (
+          <Grid item xs={12} sm={12} md={3} spacing={1}>
             <Paper elevation={2} className="skill">
               <Typography variant="h6" className="skills_title">
                 {skill.title}
@@ -150,14 +150,14 @@ const Resume = () => {
         ))}
       </Grid>
 
-      {/* Biomedical Skills */}
+      {/* Coding Skills */}
       <Grid
         container
         justifyContent="space-between"
         className="section graybg pb_45 pt_45"
       >
-        {resumeData.biomed_skills.map((skill) => (
-          <Grid item xs={12} sm={12} md={3} spacing={1}>
+        {resumeData.coding_skills.map((skill) => (
+          <Grid item xs={12} sm={12} md={3}>
             <Paper elevation={2} className="skill">
               <Typography variant="h6" className="skills_title">
                 {skill.title}
