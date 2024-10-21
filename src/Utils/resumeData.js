@@ -184,7 +184,7 @@ const resumeData = {
       ],
     },
     {
-      tag: "Python",
+      tag: "Project Management",
       image: PythonImage,
       title: "Django Project - Still in Progress",
       caption: "Building a Web Application with Django",
@@ -239,11 +239,35 @@ const resumeData = {
       ],
     },
     {
-      tag: "Project Management",
+      tag: "Python",
       image: DisplayImage,
       title: "Project 1",
       caption: "A short description",
-      description: "This is my project description. Please fill it in",
+      description: "Test",
+      links: [
+        { link: "https://www.gooogle.com", icon: <GoogleIcon /> },
+        { link: "https://www.gooogle.com", icon: <ComputerTwoToneIcon /> },
+      ],
+    },
+
+    {
+      tag: "Python",
+      image: DisplayImage,
+      title: "Unsupported OS Replacement Project",
+      caption: "A short description",
+      description:
+        "This project involved replaced each unsupported OS in the Dallas VHA region, including 12 CBOCs and 2 major facilities.",
+      links: [
+        { link: "https://www.gooogle.com", icon: <GoogleIcon /> },
+        { link: "https://www.gooogle.com", icon: <ComputerTwoToneIcon /> },
+      ],
+    },
+    {
+      tag: "Python",
+      image: DisplayImage,
+      title: "Project 1",
+      caption: "A short description",
+      description: "Test",
       links: [
         { link: "https://www.gooogle.com", icon: <GoogleIcon /> },
         { link: "https://www.gooogle.com", icon: <ComputerTwoToneIcon /> },

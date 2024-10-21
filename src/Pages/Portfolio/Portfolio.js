@@ -17,7 +17,7 @@ import DialogActions from "@mui/material/DialogActions";
 
 const Portfolio = () => {
   const [tabValue, setTabValue] = useState("All");
-  const [projectDialog, setprojectDialog] = useState(false);
+  const [projectDialog, setprojectDialog] = useState(null);
 
   return (
     <Grid container spacing={1} className="section">
@@ -102,10 +102,10 @@ const Portfolio = () => {
       </Grid>
       <Dialog
         open={projectDialog}
-        onClose={() => setprojectDialog(false)}
+        onClose={() => setprojectDialog(null)}
         className="projectDialog"
       >
-        <DialogTitle onClose={() => setprojectDialog(false)}>
+        <DialogTitle onClose={() => setprojectDialog(null)}>
           {projectDialog.title}
         </DialogTitle>
         <img src={projectDialog.image} alt="" className="projectDialog_image" />
